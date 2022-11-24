@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #ebebeb, #c1c3ce, #939fb3, #5f7d97, #1d5e79);
+}
+
+div {
+    background-color: rgba(136, 155, 198, 0.566);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+h1 {
+    color: white;
+    padding: 10px;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+input .entrar {
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+.confirmar {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+.buttonSaque, .confirmar {
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    background-color:#7892c2;
+    border-radius:10px;
+    border:1px solid #4e6096;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    padding:6px 20px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+}
+
+.buttonSaque:hover {
+    background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+    background-color:#476e9e;
+}
+
+.buttonSaque:active {
+    position:relative;
+    top:1px;
+}
+
+.valor {
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background-color:#f7f7f7;
+    border-radius:10px;
+    display:inline-block;
+    color:#070707;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    padding:6px 20px;
+    text-decoration:none;
+}
+
+
+button:hover {
+    background-color: rgba(1, 133, 177, 0.838);
+    cursor: pointer;
+}
+
+.result {
+    padding: 10px;
+    font-size: 8px;
+}
